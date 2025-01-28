@@ -1,4 +1,5 @@
 import { bookList } from '../data/BookList'
+import BookItem from './BookItem'
 import '../styles/ShoppingList.css'
 
 function ShoppingList() {
@@ -18,13 +19,16 @@ function ShoppingList() {
 					<li key={cat}>{cat}</li>
 				))}
 			</ul>
-            <div>List of books</div>
-			<ul className='lmj-plant-list'  >
-				{bookList.map((book) => (
-					<li key={book.id} className='lmj-plant-item'>
-                        {book.name}
-                        {book.isSpecialOffer && <div className='lmj-sales'>Sales</div>}
-                    </li>
+
+            <div>List of books</div>            
+			<ul className='lmj-book-list'>
+				{bookList.map(({ id, cover, name, isSpecialOffer }) => (
+					<BookItem
+						id={id}
+						cover={cover}
+						name={name}
+                        isSpecialOffer={isSpecialOffer}                      
+					/>
 				))}
 			</ul>
 		</div>

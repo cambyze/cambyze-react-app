@@ -1,12 +1,7 @@
 import '../styles/Banner.css'
-import logo from '../assets/cambyze_icon.png'
 
-
-function Banner() {
-	const title = 'Cambyze Shopping Center'
-	return <div className='lmj-banner'>
-	<img src={logo} alt='Cambyze Shopping Center' className='lmj-logo' />
-	</div>
+// examples of using children to retrieve the childrens defined in App.js wihin the Banner structure
+function Banner({ children }) {
+	return <div className='lmj-banner'>{children}</div>
 }
-
 export default Banner

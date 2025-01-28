@@ -1,0 +1,32 @@
+.lmj-book-item-cover {
+	height: 220px;
+	width: 220px;
+	border-radius: 20px;
+}
+
+.lmj-book-item {
+	margin: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+}
+
+.lmj-sales {
+	position: top;
+	right: 0px;
+	top: 10px;
+	font-weight: 500;
+	color: white;
+	padding: 5px 10px;
+	background-color: #217baf;
+}
+
+.lmj-ordinary {
+	position: top;
+	right: 0px;
+	top: 10px;
+	font-weight: 500;
+	padding: 5px 10px;
+}
