@@ -1,9 +1,11 @@
+import '../styles/Bag.css'
+
 function Bag() {
 	const item1Price = 8
 	const item2Price = 10
 	const item3Price = 15
 	return (
-		<div>
+		<div className='lmj-bag'>
 			<h2>View Bag:</h2>
 			<ul>
 				<li>Item1 : {item1Price}€</li>
