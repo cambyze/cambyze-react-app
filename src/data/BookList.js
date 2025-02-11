@@ -9,9 +9,9 @@ import ontology from '../assets/ontology.jpg'
 
 export const bookList = [
 	{
-		name: 'Algorithms ',
+		name: 'Algorithms',
 		category: 'misc',
-		id: 'a10270737',
+		id: '1',
 		cover: algorithms,
 		pages: 300,
 		price: 2
@@ -19,7 +19,7 @@ export const bookList = [
 	{
 		name: 'Data Quality',
 		category: 'misc',
-		id: 'mp4031156',
+		id: '2',
 		cover: quality,
 		pages: 500,
 		price: 3
@@ -27,7 +27,7 @@ export const bookList = [
 	{
 		name: 'Guide to Python',
 		category: 'language',
-		id: 'a18550344',
+		id: '3',
 		isSpecialOffer: true,
 		cover: python,
 		pages: 150,
@@ -36,7 +36,7 @@ export const bookList = [
 	{
 		name: 'Architecture ',
 		category: 'language',
-		id: '4kmp39579646k',
+		id: '4',
 		cover: architecture,
 		pages: 320,
 		price: 2
@@ -44,7 +44,7 @@ export const bookList = [
 	{
 		name: 'Foundations ',
 		category: 'misc',
-		id: '5pl',
+		id: '5',
 		isSpecialOffer: true,
 		cover: foundations,
 		pages: 500,
@@ -53,7 +53,7 @@ export const bookList = [
 	{
 		name: 'Operating Systems',
 		category: 'OS',
-		id: 'mp34060295',
+		id: '6',
 		cover: systems,
 		pages: 250,
 		price: 1
@@ -61,7 +61,7 @@ export const bookList = [
 	{
 		name: 'Ontology',
 		category: 'misc',
-		id: 'a18307166',
+		id: '7',
 		cover: ontology,
 		pages: 800,
 		price: 3
